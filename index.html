@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Je n'ai rien à cacher</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1 class="title">jenairienacacher</h1>
+	</header>
+
+  <section id="init" class="visible">
+		<div class="middle">
+			<h3>Si tu n'as rien à cacher, clique !</h3>
+			<canvas></canvas>
+		</div>
+  </section>
+
+  <section id="share" class="hidden">
+    <div id="results"></div>
+  </section>
+
+	<div id="blur" class="hidden"></div>
+
+	<div id="infos">
+		<i class="icon"></i>
+		<div id="box" class="hidden">
+			<div class="text">
+				<h4>Informations</h4>
+				<p>Cette expérience n'est disponible que de Chrome 30+ et Mozilla Firefox 20+. Safari 6+ et IE9+ sont prit en charge si Flash Player est activé.</p>
+				<p>Malheureusement, elle n'est pas disponible sur mobile, les navigateurs ne prennent pas encore en charge nos scripts.</p>
+				<p>Nous n'enregistrons aucune image, celles-ci sont mises en cache dans votre navigateur et disparaissent dès que vous quittez le site.</p>
+				<p>Cette experience à été crée à l'occasion de la projection de <b>Nothing to hide</b> à l'IUT Bordeaux Montaigne.</p>
+				<p>Conçu avec le <i class="heart"></i> par <a href="#">Bastien ROBERT</a> & <a href="#">Joshua RICHARD</a>.</p>
+			</div>
+			<div class="close">Fermer la fenetre</div>
+		</div>
+	</div>
+
+  <!-- Just to init the webcam -->
+	<div id="my_camera" style="display:none;"></div>
+  <!-- Webcam scripts -->
+  <script src="assets/js/webcam.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/button.js"></script>
+  <noscript>
+    Activez le JS pour pourvoir lancer l'expérience !
+  </noscript>
+</body>
+</html>
