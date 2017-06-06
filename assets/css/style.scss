@@ -10,7 +10,11 @@ FONTS
 
 @font-face {
   font-family: 'polya';
-  src: url('../fonts/POLYA.otf');
+  src: url('../fonts/POLYA.eot');
+  src: url('../fonts/POLYA.otf') format('truetype'),
+       url('../fonts/POLYA.ttf') format('embedded-opentype'),
+       url('../fonts/POLYA.woff') format('woff'),
+       url('../fonts/POLYA.woff2') format('woff2');
 }
 
 /***************

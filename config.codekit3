@@ -32,10 +32,34 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/fonts\/POLYA.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/POLYA.eot",
+		"oF": 0
+		},
 	"\/assets\/fonts\/POLYA.otf": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/POLYA.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/POLYA.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/POLYA.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/POLYA.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/POLYA.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/POLYA.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/POLYA.woff2",
 		"oF": 0
 		},
 	"\/assets\/icons\/information.svg": {
