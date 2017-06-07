@@ -150,6 +150,15 @@ header h1 {
       #infos #box .text p a {
         font-weight: 400;
         color: #C34489; }
+    #infos #box .text i.heart {
+      height: 1em;
+      width: 1em;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      background-size: contain;
+      background-image: url(../icons/heart.svg);
+      vertical-align: -3px; }
   #infos #box .close {
     text-align: center;
     display: block;
