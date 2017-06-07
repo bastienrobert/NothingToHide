@@ -18,6 +18,16 @@ FONTS
 }
 
 /***************
+KEYFRAME
+***************/
+
+@keyframes heart {
+  0%{text-shadow:0 0 10px rgba(213,9,60,.2)}
+  50%{text-shadow:0 0 10px rgba(213,9,60,1)}
+  100%{text-shadow:0 0 10px rgba(213,9,60,.2)}
+}
+
+/***************
 GLOBAL
 ***************/
 body {
@@ -145,15 +155,10 @@ header {
           color: #C34489;
         }
       }
-      i.heart {
-        height: 1em;
-        width: 1em;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: inline-block;
-        background-size: contain;
-        background-image: url(../icons/heart.svg);
-        vertical-align: -3px;
+      span.heart {
+        animation: heart 2s infinite;
+        color: rgb(213,9,60);
+        vertical-align: -1px;
       }
     }
     .close {

@@ -40,6 +40,17 @@ FONTS
   src: url("../fonts/POLYA.otf") format("truetype"), url("../fonts/POLYA.ttf") format("embedded-opentype"), url("../fonts/POLYA.woff") format("woff"), url("../fonts/POLYA.woff2") format("woff2"); }
 
 /***************
+KEYFRAME
+***************/
+@keyframes heart {
+  0% {
+    text-shadow: 0 0 10px rgba(213, 9, 60, 0.2); }
+  50% {
+    text-shadow: 0 0 10px #d5093c; }
+  100% {
+    text-shadow: 0 0 10px rgba(213, 9, 60, 0.2); } }
+
+/***************
 GLOBAL
 ***************/
 body {
@@ -150,15 +161,10 @@ header h1 {
       #infos #box .text p a {
         font-weight: 400;
         color: #C34489; }
-    #infos #box .text i.heart {
-      height: 1em;
-      width: 1em;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: inline-block;
-      background-size: contain;
-      background-image: url(../icons/heart.svg);
-      vertical-align: -3px; }
+    #infos #box .text span.heart {
+      animation: heart 2s infinite;
+      color: #d5093c;
+      vertical-align: -1px; }
   #infos #box .close {
     text-align: center;
     display: block;
